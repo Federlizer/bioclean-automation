@@ -23,6 +23,8 @@ const (
 	endOfWeekSkipCount = 4
 
 	beginningRow = 11
+
+	path = "/root/Dropbox/Nikola Velichkov"
 )
 
 // info holds the data that has to be written in the spreadsheets
@@ -57,7 +59,7 @@ func main() {
 		return
 	}
 
-	f, err := excelize.OpenFile("/home/nikola/Dropbox/Nikola Velichkov/" + getFileName(t))
+	f, err := excelize.OpenFile(path + getFileName(t))
 	if err != nil {
 		panic(err)
 	}
