@@ -24,7 +24,7 @@ const (
 
 	beginningRow = 11
 
-	path = "/root/Dropbox/Nikola Velichkov"
+	path = "/root/Dropbox/Nikola Velichkov/"
 )
 
 // info holds the data that has to be written in the spreadsheets
