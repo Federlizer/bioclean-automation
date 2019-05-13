@@ -39,8 +39,8 @@ type info struct {
 var (
 	normalInfo = info{
 		start:       0.708333333,
-		end:         0.8125,
-		description: "Cleaning first two floors of stairs in 14 A, picking up trash from 14, cleaning main stairway in 46.",
+		end:         0.833333333,
+		description: "Cleaning first two floors of stairs in 14 A, cleaning coffee spots in all the stairs in 14, picking up trash from 14, cleaning main stairway in 46.",
 	}
 	altInfo = info{
 		start:       0.708333333,
