@@ -14,3 +14,4 @@ A suggestion is to set up the program to fire once a day using cron jobs.
 - [X] Create a config file to store defaults
 - [ ] Make it possible to invoke another configuration path via flags
 - [ ] Writing data for previous days
+- [ ] Use makefile to do appropriate actions when installing the program
