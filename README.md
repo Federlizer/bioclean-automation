@@ -11,4 +11,6 @@ bioclean-automation
 A suggestion is to set up the program to fire once a day using cron jobs.
 
 #### TODO
-- [ ] Create a config file to store defaults
+- [X] Create a config file to store defaults
+- [ ] Make it possible to invoke another configuration path via flags
+- [ ] Writing data for previous days
